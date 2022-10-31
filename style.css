@@ -7,7 +7,7 @@ body {
 
 .wrapper {
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 0;
   display: block;
 }
 
@@ -15,8 +15,7 @@ body {
   text-align: right;
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -52,11 +51,11 @@ body {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-
+  
 .button__image_delete:hover {
   transform: rotateZ(0);
 }
-
+  
 .section_add {
   margin: 0 0 15px;
 }
@@ -91,6 +90,7 @@ body {
 .task {
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
   overflow: hidden;
   list-style: none;
   border-bottom: 1px solid #eee;
@@ -109,7 +109,7 @@ body {
   flex-grow: 1;
 }
 
-.task_input {
+.task__input {
   display: none;
   flex-grow: 1;
   margin: 0;
@@ -147,5 +147,5 @@ body {
 }
 
 .task_edit .task__label {
-    display: none;
+  display: none;
 }
