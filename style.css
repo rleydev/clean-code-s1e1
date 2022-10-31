@@ -44,7 +44,7 @@ body {
 }
 
 .button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 .button__image_delete {
@@ -60,7 +60,6 @@ body {
 .section_add {
   margin: 0 0 15px;
 }
-
 
 /* Heading */
 .section__title {
